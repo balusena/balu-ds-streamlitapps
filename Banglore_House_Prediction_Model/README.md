@@ -1,26 +1,26 @@
 ## Bengaluru House Price Forecasting
 
 ## 1.Source
--  We will first build a model using sklearn and linear regression using banglore home prices dataset from kaggle.com.
--  Second step would be to write a streamlit app that uses the saved model to serve https requests and allows user to enter house location square ft area, bedrooms, bhk etc and it will use streamlit to retrieve the predicted price.
--  During model building we will cover almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc.
+-  We will be using Motor_Vehicle.csv and lat_long_csv datasets for building this analysis dashboard.
+-  Second step would be to write a streamlit app that uses the above datasets to analyse the accidents in specific areas over a period of time with 3 clases
+-  [Class_1:'Pedestrians', Class_2:'Cyclists', Class_3:'Motorists']
 -  Technology and tools wise this project covers,
 -    1.Python
 -    2.Numpy and Pandas for data cleaning
 -    3.Matplotlib for data visualization
 -    4.Sklearn for model building
--    5.Jupyter notebook, visual studio code and pycharm as IDE
+-    5.visual studio code and pycharm as IDE
 -    6.Python Streamlit an open source app framework for our UI and https requests
 -    7.Git and Github for our source code version control
 
 ## 2.Features
-- Simple responsive UI
-- Select dataset for prediction [House Price in INR-Lakhs]
-- Locations [Select from 300+Locations in Begaluru]
-- Square-foot Area [Select the Square_foot in numbers]
-- Number of Bathrooms [Select the Bathrooms in numbers]
-- Number of BHK [Select the BHK in numbers]
-- After providing all these preferences we will get the best predicted price from ML-Model in INR-Lakhs
+- Simple responsive UI Dashboard designed to analyze Road Accidents in New York City
+- Areas where most people are injured: Select Number of persons injured [ 0 ====> 19]
+- Number of accidents occuring during a given time of the day: Select Hour of the day [ 0 ====> 23]
+- Plot shows the areas where Road Accidents occur between 00:00 and 23:00
+- Check Show raw data [/] to get the Raw data by minute between 00:00 and 23:00
+- Plot minutes vs crashes: Breakdown by minute between 00:00 and 23:00
+- Top 5 affected streets by class: Select from the following clases ['Pedestrians', 'Cyclists', 'Motorists']
 
 ## 3.Usage
 - Clone my repository here ===> (https://github.com/balusena/balugithub/tree/master/Banglore_House_Prediction_Model)
